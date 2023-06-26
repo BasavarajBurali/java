@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         String name="MADAM";
         String org_String="MADAM";
-        String rev="";
+        String rev="";//comment
         for(int i=name.length()-1;i>=0;i--){
             rev=rev+name.charAt(i);
         }
